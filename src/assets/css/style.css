@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(113, 143, 153);
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:rgb(45, 60, 65);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(8, 32, 41);
+    margin-right: 40px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 15px;
+    list-style-type: none;
+    align-items: center;
+}
+
+header a {
+    font: bolder;
+    color: black;
+    margin: 3px;
+}
+/* End Header Styling */
+
+/* Hero Styling */
+.hero {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero div {
+    /* float: right;
+    display: inline-block; */
+    position: absolute;
+    right: 0;
+    top: 333px;
+}
+/* Eng Hero Styling */
+
+/* Border Styling */
+.border {
+    border-width: 3px;
+    border-color: rgba(0, 0, 0, 0.582);
+    border-style: groove;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+}
+/* End Border Styling */
+
+/* Segment Styling */
+.segment {
+    font-size: 25px;
+    margin-bottom: 35px;
+    padding: 0 20px 0 0;
+    display: inline-block;
+    border-right: 3px solid;
+}
+
+.segment h2 {
+    text-align: center;
+}
+
+.segment div {
+    padding: 30px;
+    margin: 30px;
+}
+
+.segment img {
+    float: left;
+}
+/* End Segment Styling */
+
+/* Portfolio Styling */
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+.project-header {
+    display: flex;
+    text-align:center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background-color:rgb(45, 60, 65);
+    color: #fff;
+    width: 100px;
+}
+
+.project {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.project header {
+    padding: 30px;
+    background:rgb(45, 60, 65);
+    color: #fff;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    min-width: 400px;
+    max-height: 400px;
+}
+/* End Portfolio Styling */
+
+/* Contact Styling */
+.contact {
+    padding: 10px;
+    text-align: center;
+}
+
+.contact div {
+    display: flex;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.contact ul li {
+    display: inline-block;
+    margin: 25px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.contact a {
+    font: bolder;
+    color: black;
+    margin: 25px;
+}
+/* End Contact Styling */
+
+/* Footer Styling */
+footer {
+    position: static;
+    padding: 40px;
+    text-align: center;
+    font-size: small;
+    background-color: rgb(45, 60, 65);
+}
+/* End Footer Styling */
