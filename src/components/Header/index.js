@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navigation from '../Navigation';
 
+
 function Header() {
 
     const handlePageChange = (page) => setCurrentPage(page);
